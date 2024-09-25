@@ -5,29 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Alfonso Pangaribuan</title>
+    <style>
+        figure {
+            float: left;
+            margin-right: 20px;
+        }
+
+        .contact-info {
+            overflow: hidden; 
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid black;
+        }
+    </style>
 </head>
 <body>
     <!-- Header -->
     <header>
         <h1>Alfonso Pangaribuan</h1>
+        <hr>
+        <hr>
         <figure>
             <img src="assets/profile.jpeg" alt="Profile Picture" width="150">
         </figure>
-        <p><strong>Informatics Engineer</strong></p>
+
+        <!-- Kontak berada di sebelah kanan gambar -->
+        <div class="contact-info">
+            <p><strong>Informatics Engineer</strong></p>
+            <h2>Contact Information</h2>
+            <!-- Tabel untuk kontak -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Type</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Phone</td>
+                        <td>+62895-3217-47-837</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>alfonso.122140206@student.itera.ac.id</td>
+                    </tr>
+                    <tr>
+                        <td>Location</td>
+                        <td>Pemda, Lampung Selatan</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </header>
 
-    <!-- Garis pemisah -->
-    <hr>
-
-    <!-- Navigation -->
-    <nav>
-        <ul>
-            <li><a href="#summary">Summary</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
 
     <!-- Garis pemisah -->
     <hr>
@@ -93,31 +130,7 @@
 
     <!-- Footer -->
     <footer>
-        <h2>Contact Information</h2>
-        <!-- Tabel untuk kontak -->
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Type</th>
-                    <th>Details</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Phone</td>
-                    <td>+62895-3217-47-837</td>
-                </tr>
-                <tr>
-                    <td>Email</td>
-                    <td>alfonso.122140206@student.itera.ac.id</td>
-                </tr>
-                <tr>
-                    <td>Location</td>
-                    <td>Pemda, Lampung Selatan</td>
-                </tr>
-            </tbody>
-        </table>
-        <small>September 2024</small>
+        <small>cv</small>
     </footer>
 </body>
 </html>
